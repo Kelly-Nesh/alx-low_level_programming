@@ -1,11 +1,9 @@
 #include <stdio.h>
 /*
+ * main - the entry point for the program start
  * include header file
  * Puts does as its name suggests..put...
  * returns integer 0 meaning success
- */
-/*
- * main - the entry point for the program start
  */
 int main(void)
 {

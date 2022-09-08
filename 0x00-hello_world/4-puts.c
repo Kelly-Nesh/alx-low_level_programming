@@ -1,11 +1,12 @@
 #include <stdio.h>
-/*
- * main - the entry point for the program start
- * include header file
- * Puts does as its name suggests..put...
- * returns integer 0 meaning success
+
+/**
+ * main - Entry point
+ * description: prints the statement in brackets
+ * Return: 0 if the program is successful else; non-zero value
  */
 int main(void)
+
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);

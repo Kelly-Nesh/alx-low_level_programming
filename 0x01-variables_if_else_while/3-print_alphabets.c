@@ -14,5 +14,6 @@ for (atoz = 'a'; atoz <= 'z'; atoz++)
 	putchar(atoz);
 for (atoz = 'A'; atoz <= 'Z'; atoz++)
 	putchar(atoz);
+putchar('\n');
 return (0);
 }

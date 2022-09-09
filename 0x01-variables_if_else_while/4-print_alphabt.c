@@ -16,7 +16,7 @@ while (atoz <= 'z')
 	{
 		putchar(atoz);
 	}
-	atoz++
+	atoz++;
 putchar('\n');
 return (0);
 }

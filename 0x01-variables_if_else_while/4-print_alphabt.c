@@ -11,8 +11,8 @@ int main(void)
 {
 char atoz = 'a';
 while (atoz <= 'z')
-{	
-if (atoz !='e' && atoz != 'q')
+{
+if (atoz != 'e' && atoz != 'q')
 putchar(atoz);
 atoz++;
 }

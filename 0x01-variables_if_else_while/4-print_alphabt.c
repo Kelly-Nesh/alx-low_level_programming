@@ -12,11 +12,12 @@ int main(void)
 char atoz = 'a';
 while (atoz <= 'z')
 {	
-	if (atoz !='e' && atoz != 'q')
-	{
-		putchar(atoz);
-	}
-	atoz++;
+if (atoz !='e' && atoz != 'q')
+{
+putchar(atoz);
+}
+atoz++;
 putchar('\n');
 return (0);
+}
 }

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ti_tb - void input and output fnctn
+ * times_table - void input and output fnctn
  * Return: automatic
  */
 

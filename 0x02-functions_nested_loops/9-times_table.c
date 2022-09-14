@@ -5,7 +5,7 @@
  * Return: automatic
  */
 
-void ti_tb(void)
+void times_table(void)
 {
 	int num, multi, prod;
 

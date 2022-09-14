@@ -3,7 +3,7 @@
 /**
  * jbr - prints time
  */
-void jbr(void)
+void jack_bauer(void)
 {
 	int hour, minute;
 

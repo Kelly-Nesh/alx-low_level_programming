@@ -3,7 +3,7 @@
 /**
  * main - prints _putchar
  * and a new line
- * return - 0 for success
+ * Return: 0 for success
  */
 
 int main(void)
@@ -17,5 +17,5 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
- return (0);
+return (0);
 }

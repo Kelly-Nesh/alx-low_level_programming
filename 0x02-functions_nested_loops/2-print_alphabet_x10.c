@@ -4,6 +4,7 @@
  * print_alphabet_x10 - prints alphabets and
  * a newline character
  * no return specified
+ */
 
 void print_alphabet_x10(void)
 {

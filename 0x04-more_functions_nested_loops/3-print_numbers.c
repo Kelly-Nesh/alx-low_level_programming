@@ -3,7 +3,7 @@
 /**
  * print_numbers - void function
  */
-void print_numbers(void)adfasd
+void print_numbers(void)
 {
 	int num;
 

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_trangle - prints a triangle
+ * print_triangle - prints a triangle
  * @sz: triangle size variable
  */
 
@@ -21,7 +21,6 @@ void print_triangle(int sz)
 
 			if (has == size)
 				continue;
-			
 			_putchar('\n');
 		}
 	}

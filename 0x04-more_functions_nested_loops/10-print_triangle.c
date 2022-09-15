@@ -16,10 +16,10 @@ void print_triangle(int sz)
 			for (ind = sz - hash; ind > 0; ind--)
 				_putchar(' ');
 
-			for (ind = 0; index < hash; ind++)
+			for (ind = 0; ind < hash; ind++)
 				_putchar('#')
 
-			if (has == size)
+			if (hash == size)
 				continue;
 			_putchar('\n');
 		}

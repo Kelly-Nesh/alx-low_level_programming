@@ -5,15 +5,15 @@
  * @sz: square size
  */
 
-void print_square(int size)
+void print_square(int sz)
 {
 	int ht, wt;
 
 	if (sz > 0)
 	{
-		vor (ht = 0; ht < sz; ht ++)
+		for (ht = 0; ht < sz; ht++)
 		{
-			for (wt = 0; wt < size; wt++)
+			for (wt = 0; wt < sz; wt++)
 				_putchar('#');
 
 			if (ht == sz - 1)

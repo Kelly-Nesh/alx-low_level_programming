@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - Draws diagonal
- * @n: variable 
+ * @n: variable
  */
 
 void print_diagonal(int n)
@@ -16,10 +16,8 @@ void print_diagonal(int n)
 			for (sp = 0; sp < len; sp++)
 				_putchar(' ');
 			_putchar('\\');
-
 			if (len == n - 1)
 				continue;
-			
 			_putchar('\n');
 		}
 	}

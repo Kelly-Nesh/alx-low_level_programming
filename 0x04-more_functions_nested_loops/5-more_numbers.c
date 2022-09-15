@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * more_number - prints numbers 10 times
+ * more_numbers - prints numbers 10 times
  */
-void more_number(void)
+void more_numbers(void)
 {
 	int num, count;
 

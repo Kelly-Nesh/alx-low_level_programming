@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * more_numbers - prints numbers 10 times
+ * more_number - prints numbers 10 times
  */
 void more_number(void)
 {
 	int num, count;
-	
+
 	for (count = 0; count <= 9; count++)
 	{
-		for (num = 0; num <= 14; num ++)
+		for (num = 0; num <= 14; num++)
 		{
-			if (num >9)
+			if (num > 9)
 				_putchar((num / 10) + '0');
 			_putchar((num % 10) + '0');
 		}

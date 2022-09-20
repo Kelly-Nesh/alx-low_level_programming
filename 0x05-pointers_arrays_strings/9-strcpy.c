@@ -8,7 +8,7 @@
  * @src: source string
  * Return: a pointer to the buffer
  */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int n = 0;
 

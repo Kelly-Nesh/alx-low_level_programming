@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strcpy - copies a string to a buffer
@@ -7,7 +8,7 @@
  * @src: source string
  * Return: a pointer to the buffer
  */
-char _strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, const char *src)
 {
 	int n = 0;
 

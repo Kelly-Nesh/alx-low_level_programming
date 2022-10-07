@@ -15,10 +15,13 @@ for (i = 0; i < 100; i++)
 	ld = ((i % 10) + '0');
 	if (fd < ld)
 	{
-	putchar(fd);
-	putchar(ld);
+	fd = putchar(fd);
+	ld = putchar(ld);
+	if (i < 89)
+	{
 	putchar(',');
 	putchar(' ');
+	}
 	}
 }
 putchar('\n');

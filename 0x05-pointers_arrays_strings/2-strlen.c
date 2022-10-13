@@ -18,9 +18,8 @@ int main(void)
 int _strlen(char *s)
 {
 	int i;
-	while (*s != '\0')
+	while (*s++)
 	{
-		*s++;
 		i++;
 	}
 	return i;

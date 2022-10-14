@@ -7,18 +7,18 @@
  * Return: string legth
  */
 
+int _strlen(char *);
 int main(void)
 {
 	char *str;
 	int len;
-
-	str = "My first strlen!";
+	str = "Holberton!";
 	len = _strlen(str);
 	printf("%d\n", len);
 	return (0);
 }
 /**
- * _strlen - callled by main
+ * _strlen - called by main
  * @s: pointer
  * Return: i
  */

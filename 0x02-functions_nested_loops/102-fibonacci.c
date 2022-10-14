@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	int a,b,d;
-	long int c;
+	int a, b, d;
+	long long int c;
 	a = 1;
 	b = 2;
 	c = 0;
@@ -16,7 +16,7 @@ int main(void)
 	while (d <= 48)
 	{
 		c = a + b;
-		printf("%li", c);
+		printf("%lli", c);
 		if (d != 48)
 			printf(", ");
 		a = b;

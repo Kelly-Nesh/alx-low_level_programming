@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+
+
 /**
- * _strlen - return string length
- * Return: int i
+ * main - gives length of a string
+ * Return: string legth
  */
+
 int main(void)
 {
 	char *str;
@@ -12,15 +15,18 @@ int main(void)
 	str = "My first strlen!";
 	len = _strlen(str);
 	printf("%d\n", len);
-	return 0;
+	return (0);
 }
-
+/**
+ * _strlen - callled by main
+ * @s: pointer
+ * Return: i
+ */
 int _strlen(char *s)
 {
-	int i;
+	int i = 0;
+
 	while (*s++)
-	{
 		i++;
-	}
-	return i;
+	return (i);
 }

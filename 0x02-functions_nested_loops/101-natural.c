@@ -6,17 +6,17 @@
  */
 
 int main(void)
-{   
-	int j,k,sum;
+{ 
+	int j, k, sum;
 	int i = 0;
 	sum = 0;
 
 	while (j < 1023 && k < 1020)
 	{
-		j = i*3;
+		j = i * 3;
 		sum += j;
 		printf("%d, ", j);
-		k = i*5;
+		k = i * 5;
 		sum += k;
 		printf("%d, ", k);
 		i++;

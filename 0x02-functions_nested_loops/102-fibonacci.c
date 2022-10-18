@@ -13,11 +13,11 @@ int main(void)
 	c = 0;
 	printf("%lu, %lu, ", a, b);
 	d = 3;
-	while (d <= 48)
+	while (d <= 50)
 	{
 		c = a + b;
 		printf("%lu", c);
-		if (d != 48)
+		if (d != 50)
 			printf(", ");
 		a = b;
 		b = c;

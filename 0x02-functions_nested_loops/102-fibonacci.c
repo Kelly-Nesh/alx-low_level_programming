@@ -6,18 +6,17 @@
  */
 int main(void)
 {
-	int a, b, d;
-	int c;
+	unsigned long int a, b, d, c;
 
 	a = 1;
 	b = 2;
 	c = 0;
-	printf("%d, %d, ", a, b);
+	printf("%lu, %lu, ", a, b);
 	d = 3;
 	while (d <= 48)
 	{
 		c = a + b;
-		printf("%i", c);
+		printf("%lu", c);
 		if (d != 48)
 			printf(", ");
 		a = b;

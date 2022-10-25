@@ -6,9 +6,10 @@
  */
 
 int main(void)
-{ 
+{
 	int j, k, sum;
 	int i = 0;
+
 	sum = 0;
 
 	while (j < 1023 && k < 1020)
@@ -22,6 +23,6 @@ int main(void)
 		i++;
 	}
 	printf("\n%d\n", sum);
-	
+
 	return (0);
 }

@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
  * binary_to_uint - Converts a binary number to an unsigned int.
@@ -30,7 +31,7 @@ unsigned int binary_to_uint(const char *b)
 			cnt--;
 			continue;
 		}
-		sum += num * (2 << rev - 1);
+		sum += num * (2 << (rev - 1));
 		rev++;
 		cnt--;
 	}

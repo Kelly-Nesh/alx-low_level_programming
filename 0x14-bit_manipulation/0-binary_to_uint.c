@@ -14,6 +14,8 @@ unsigned int binary_to_uint(const char *b)
 	int cnt;
 	unsigned int sum, num, rev;
 
+	if (b == NULL)
+		return (0);
 	rev = cnt = sum = 0;
 	cnt = strlen(b) - 1;
 	while (cnt >= 0)

@@ -4,10 +4,6 @@
 /**
  * binary_to_uint - Converts a binary number to an unsigned int.
  * @b: A pointer to a string of 0 and 1 chars.
- * @cnt: length of the array
- * @sum: decimal value of the binary number
- * @num: the value of the binary number
- * @rev: reverse count to array start
  * Return: If b is NULL or contains chars not 0 or 1 - 0.
  *         Otherwise - the converted number.
  */
@@ -16,8 +12,9 @@ unsigned int binary_to_uint(const char *b)
 {
 	int cnt;
 	unsigned int sum, num, rev;
+
 	rev = cnt = sum = 0;
-	cnt = strlen(b)-1;
+	cnt = strlen(b) - 1;
 	while (cnt >= 0)
 	{
 		if (b[cnt] == '1')
@@ -25,7 +22,7 @@ unsigned int binary_to_uint(const char *b)
 		else if (b[cnt] == '0')
 			num = 0;
 		else
-			return 0;
+			return (0);
 		if (rev == 0)
 		{
 			sum += num;
@@ -33,9 +30,9 @@ unsigned int binary_to_uint(const char *b)
 			cnt--;
 			continue;
 		}
-		sum += num * (2<<rev-1);
+		sum += num * (2 << rev - 1);
 		rev++;
 		cnt--;
 	}
-	return sum;
+	return (sum);
 }

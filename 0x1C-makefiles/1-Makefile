@@ -1,8 +1,8 @@
 .PHONY = school
 
-CC := gcc
+CC = gcc
 
-SRC := $(wildcard *.c)
+SRC = $(wildcard *.c)
 
 all: school
 

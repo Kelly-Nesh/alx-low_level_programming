@@ -4,4 +4,4 @@ SRC := $(wildcard *.c)
 all: school
 
 school: $(SRC)
-	$(CC) $(SRC) -o $@
+	$(CC) $(SRC) -o school 

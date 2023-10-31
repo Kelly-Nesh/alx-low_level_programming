@@ -19,6 +19,7 @@ def get_width(grid):
     width.sort()
     return width[-1]
 
+
 def get_height(grid):
     """
     returns the height of the island described in grid:
@@ -34,6 +35,7 @@ def get_height(grid):
         count = 0
     height.sort()
     return height[-1]
+
 
 def island_perimeter(grid):
     """

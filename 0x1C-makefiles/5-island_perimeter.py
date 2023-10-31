@@ -14,6 +14,8 @@ def get_width(grid):
         for cell in range(len(grid[row])):
             if grid[row][cell] == 1:
                 count += 1
+            if grid[row][cell] == 0 and count > 0:
+                break
         width.append(count)
         count = 0
     width.sort()
@@ -29,6 +31,8 @@ def get_height(grid):
     h = 0
     for row in range(len(grid[0])):
         for cell in grid:
+            if cell[h] == 0 and count > 0:
+                break
             count += cell[h]
         h += 1
         height.append(count)
